@@ -6,22 +6,8 @@
 
     <title>Page d'accueil</title>
     <style>
-        /* Fancy CSS styles */
 
-        /* Style pour le pop-up */
-        #popup {
-            display: none;
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            padding: 20px;
-            background-color: #fff;
-            border: 1px solid #ccc;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            z-index: 1000;
-        }
-
+     
         body {
             background-color: #f2f2f2;
             font-family: Arial, sans-serif;
@@ -91,16 +77,5 @@
     <a href='pageproduit.php'>voir tout nos produits</a>
 
 
-    <script>
-        // Fonction pour afficher le pop-up
-        function afficherPopup() {
-            document.getElementById('popup').style.display = 'block';
-        }
-
-        // Fonction pour cacher le pop-up
-        function cacherPopup() {
-            document.getElementById('popup').style.display = 'none';
-        }
-    </script>
 </body>
 </html>

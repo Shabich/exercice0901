@@ -6,7 +6,7 @@
 
     <title>Page d'accueil</title>
     <style>
-        /* Fancy CSS styles */
+      
         body {
             background-color: #f2f2f2;
             font-family: Arial, sans-serif;
